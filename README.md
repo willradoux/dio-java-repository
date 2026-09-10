@@ -1,0 +1,37 @@
+# DIO Java Repository
+
+Repositorio criado para organizar os estudos da trilha **Java Basico** da
+[Digital Innovation One](https://www.dio.me/).
+
+## Desafios
+
+| Modulo | Desafio | Caminho |
+| --- | --- | --- |
+| Sintaxe | ContaBanco | `desafios/sintaxe/conta-banco` |
+
+## Como executar o desafio ContaBanco
+
+No terminal, a partir da raiz do repositorio:
+
+```bash
+javac -d out desafios/sintaxe/conta-banco/src/*.java
+java -cp out ContaTerminal
+```
+
+No PowerShell do Windows, se preferir informar os arquivos diretamente:
+
+```powershell
+javac -d out .\desafios\sintaxe\conta-banco\src\Conta.java .\desafios\sintaxe\conta-banco\src\ContaTerminal.java
+java -cp out ContaTerminal
+```
+
+## Estrutura
+
+```text
+desafios/
+  sintaxe/
+    conta-banco/
+      src/
+        Conta.java
+        ContaTerminal.java
+```
